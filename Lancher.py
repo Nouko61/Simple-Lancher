@@ -10,7 +10,7 @@ def bye():
 
 
 def clear():
-    os.system('clear')
+    os.system('cls')
 
 
 def ping(to):
