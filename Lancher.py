@@ -99,4 +99,4 @@ if __name__ == '__main__':
         print('上行流量: %.2fMB\t实际消耗上行流量: %.2fMB' % (tap_read, udp_write))
         print('下行流量: %.2fMB\t实际消耗下行流量: %.2fMB' % (tap_write, udp_read))
         print('\n关闭本窗口即可断开连接', end='')
-        time.sleep(5)
+        time.sleep(3)
